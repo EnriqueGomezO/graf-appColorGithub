@@ -1,0 +1,62 @@
+/* Fondo degradado */
+.bg-gradient {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+/* Card principal */
+.color-card {
+  background: #ffffffee;
+  border: none;
+  max-width: 800px;
+}
+
+/* Recuadro de color */
+.color-box {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #444;
+  border-radius: 16px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+/* Sliders personalizados */
+input[type="range"] {
+  height: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slider-red::-webkit-slider-thumb {
+  background: #e63946;
+}
+.slider-green::-webkit-slider-thumb {
+  background: #2a9d8f;
+}
+.slider-blue::-webkit-slider-thumb {
+  background: #457b9d;
+}
+
+.slider-red {
+  background: linear-gradient(to right, #000, #e63946);
+}
+.slider-green {
+  background: linear-gradient(to right, #000, #2a9d8f);
+}
+.slider-blue {
+  background: linear-gradient(to right, #000, #457b9d);
+}
+
+/* Inputs numéricos */
+input[type="number"] {
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #ddd;
+  transition: all 0.2s;
+}
+input[type="number"]:focus {
+  border-color: #764ba2;
+  box-shadow: 0 0 6px rgba(118, 75, 162, 0.5);
+}
